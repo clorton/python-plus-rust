@@ -10,7 +10,6 @@ Rust backing Python package experiment ([reference](https://www.youtube.com/watc
 * install `maturin` Python package, `python3 -m pip install maturin`
 * directory for Rust package, `fibbers`
 * in the `fibbers` directory run `maturin init` ... select "pyo3"
-* in the `fibbers` directory run `maturin develop`
     * `Cargo.toml`, `pyproject.toml`, and `.github/CI.yml` would be useful if we decide to publish our package.
 * take a look at `fibbers/src/lib.rs`
 * add in the Rust implementation of fib[onacci]
