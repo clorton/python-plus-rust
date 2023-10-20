@@ -2,6 +2,8 @@
 
 Rust backing Python package experiment ([reference](https://www.youtube.com/watch?v=jlWhnrk8go0))
 
+Click [here](./README.md#codespace-setup) for codespace setup.
+
 * `python3 --version` » "Python 3.10.8"
 * `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh` (courtesy of [https://www.rust-lang.org/tools/install])
 * create `python3 -m venv .venv` and activate `source .venv/bin/activate` a Python virtual environment
@@ -52,3 +54,12 @@ Rust ms per call: 2.53 ms
 * [The PyO3 user guide](https://pyo3.rs/v0.19.0/)
 * [Rust bindings for the NumPy C-API](https://github.com/PyO3/rust-numpy)
 
+----
+
+## Codespace Setup
+
+* Install Rust: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+* Create and activate a Python virtual environment:
+  * `python3 -m venv .venv`
+  * `source .venv/bin/activate`
+* Install the `maturin` Python package: `python3 -m pip install maturin`
